@@ -1,15 +1,16 @@
 # GitLog 
 
-## Description: 
+## Description 
     
-    cria arquivos de dados (JSON) à partir de um repositório Git local.
-        [prefix] resume.log     Todos os commits do repositório;
-        [prefix] author.log     Dados dos autores de commits do repositório.
+Cria arquivos de dados (JSON) à partir de um repositório Git local.
+[prefix] resume.log     Todos os commits do repositório;
+[prefix] author.log     Dados dos autores de commits do repositório.
 
-## Require: 
+## Require 
     
-    NodeJs (version 12++).
-## Usage: 
+NodeJs (version 12++).
+
+## Usage
     
     node gitlog <options> 
 
@@ -20,11 +21,12 @@
         --help, 
         /? ou vazio     Mostram essse help.
     
-## Bug: 
+## Bug
     
-    no Windows, não indique um caminho diferente do drive principal (C:). 
-        Para rodar em outro drive (ex.: D:), copie e rode GitLog nesse drive.
+No Windows, não indique um caminho diferente do drive principal (C:).<br>
+Para rodar em outro drive (ex.: D:), copie e rode GitLog nesse drive.
 
-## Credits: 
-    GitLog by BillRocha <prbr@ymail.com>
-    MIT License - <https://github.com/pedra/gitlog>
+## Credits
+
+GitLog by BillRocha <prbr@ymail.com><br>
+MIT License - <https://github.com/pedra/gitlog>
