@@ -2,9 +2,10 @@
 
 ## Description 
     
-Cria arquivos de dados (JSON) à partir de um repositório Git local.<br>
-[prefix] resume.log     Todos os commits do repositório;<br>
-[prefix] author.log     Dados dos autores de commits do repositório.
+Cria arquivos de dados (JSON) à partir de um repositório Git local.
+
+    [prefix] resume.log     Todos os commits do repositório;
+    [prefix] author.log     Dados dos autores de commits do repositório.
 
 ## Require 
     
